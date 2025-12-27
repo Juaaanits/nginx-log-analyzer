@@ -1,15 +1,20 @@
-🖥️ Nginx Log Analyzer
+# 🖥️  Nginx Log Analyzer
+
 A lightweight and straightforward Bash script to analyze Nginx access logs.
 Perfect for quickly identifying top visitors, most requested paths, and common response codes.
 
-⚙️ Features
+---
+
+## ⚙️ Features
 The `nginx-log-analyzer.sh` script provides:
 
 👥 Top 5 IP Addresses — Displays the IPs with the most requests.  
 📂 Top 5 Most Requested Paths — Shows the most accessed endpoints with `/api` prepended for clarity.  
 📊 Top 5 Response Status Codes — Lists the most common HTTP response codes.  
 
-🚀 Usage
+---
+
+## 🚀 Usage
 Clone the repository or manually copy the script to your server:
 
 ```bash
@@ -28,7 +33,9 @@ Run the script:
 ./nginx-log-analyzer.sh
 ```
 
-📂 Example Output:
+---
+
+## 📂 Example Output:
 
 ```bash
 =========== Nginx Log Analyzer ========================
@@ -53,7 +60,9 @@ Top 5 response status codes:
 500 - 7 requests
 ```
 
-📦 Requirements
+---
+
+## 📦 Requirements
 
 - Linux-based system
 - Bash shell (/bin/bash)
@@ -63,20 +72,33 @@ Top 5 response status codes:
   - uniq
   - head
 
-💡 Note
+---
+
+## 💡 Note
 Make sure your Nginx logs are in a file named `logs` or adjust the script accordingly. The script expects the **standard Nginx combined log format**.
 
-🔗 Project Link
+---
+
+## 🔗 Project Link
+
 🌐 [Roadmap.sh Project Page](https://roadmap.sh/projects/nginx-log-analyser)
 
-👤 Author
-Juanito M. Ramos II  
+---
+
+## 👤 Author
+
+**Juanito M. Ramos II**  
 GitHub: [https://github.com/Juaaanits](https://github.com/Juaaanits)
 
-📜 License
+---
+
+## 📜 License
+
 This project is licensed under the MIT License.
 
-✅ Key Improvements
+---
+
+## ✅ Key Improvements
 
 - Prepends `/api` to endpoints for clarity in reporting.  
 - Accurately counts top IP addresses, paths, and response codes.  
